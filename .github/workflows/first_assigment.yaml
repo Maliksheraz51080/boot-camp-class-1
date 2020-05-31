@@ -26,9 +26,9 @@ jobs:
     - name: insatll nodeJS
       uses: actions/setup-node@v2-beta
       with:
-        node-version: 12
-   - name: install Surge
-     run: npm install -g surge
-   - name: Run Surge
-     run: surge ./bootcampapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+         node-version: 12
+    - name: install Surge
+      run: npm install -g surge
+    - name: Run Surge
+      run: surge ./bootcampapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
      
