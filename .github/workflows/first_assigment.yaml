@@ -30,5 +30,5 @@ jobs:
     - name: install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge https://github.com/Maliksheraz51080/boot-camp-class-1/ boot_camp_with_panacloud.surge.sh --token ${{secrets.FIRST}}
+      run: surge C:\Users\MUHAMMAD SHERAZ\AppData\Roaming\npm\ boot_camp_with_panacloud.surge.sh --token ${{secrets.FIRST}}
      
